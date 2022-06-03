@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #fefced;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ------ nav -------- */
+.nav-bar {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  height: 13vh;
+  padding: 10px;
+  background: #fff;
+}
+
+nav div.container {
+  background: #fff;
+  padding: 10px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+hr {
+  padding: 0px;
+  height: 3px;
+  background: #587364;
+}
+
+.fa-handshake-angle {
+  font-size: 25px;
+}
+
+#tools {
+  margin: 0px;
+  list-style: none;
+}
+
+#tools li {
+  margin-left: 20px;
+}
+
+#tools li i {
+  margin-right: 3px;
+}
+
+#login {
+  background: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+/* ------ login form -------- */
+img {
+  width: 100%;
+}
+
+form {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 50px;
+}
+
+.another-login {
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+
+  list-style: none;
+}
+
+.gmail {
+  width: 3rem;
+}
+
+.fb {
+  width: 2rem;
+}
+
+.social-media span {
+  list-style: none;
+  font-size: 15px;
+}
+
+/* ------ footer -------- */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: #fff;
+  height: 35vh;
+  padding: 40px 10px;
+}
+
+.contact-us i {
+  margin-right: 2px;
+
+}
